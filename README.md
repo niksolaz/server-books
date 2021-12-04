@@ -8,9 +8,20 @@ ed esponga 2 endpoints:
  
 # Install
 
+Install package:
+```
+npm install
+```
+or 
+
 ```
 yarn install
+```
+Create your `env` file and get API key or Other service that you want.
 
+Starting server:
+```
+yarn dev
 ```
 
 # NY Times:
