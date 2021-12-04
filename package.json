@@ -1,0 +1,10 @@
+{
+  "name": "server-books",
+  "version": "1.0.0",
+  "description": "server back-end in  node.js che utilizza le APIs realizzate da NY Times and Google Books",
+  "main": "index.js",
+  "repository": "https://github.com/niksolaz/server-books.git",
+  "author": "Nicola Solazzo <solazzo.nicola@gmail.com>",
+  "license": "MIT",
+  "private": null
+}
