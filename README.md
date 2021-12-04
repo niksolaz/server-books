@@ -12,3 +12,7 @@ ed esponga 2 endpoints:
 yarn install
 
 ```
+
+# NY Times:
+- Go to https://developer.nytimes.com/ and get API_key
+- Endopint: `/nytimes`
