@@ -23,7 +23,15 @@ Starting server:
 ```
 yarn dev
 ```
+# ENDPOINTS
+- basic: `/`
 
-# NY Times:
+## NY Times:
 - Go to https://developer.nytimes.com/ and get API_key
-- Endopint: `/nytimes`
+- Endpoint `welcome`: `/nytimes`
+- Endpoint `books`: `/nytimes/books`
+- Endpoint `book`: `/nytimes/books/:id`
+
+## Google Books:
+- Go to https://developers.google.com/books/docs/overview and get API_key
+- Endpoint `welcome`: `/gbooks`
