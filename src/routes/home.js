@@ -12,6 +12,11 @@ router.get('/', (req, res) => {
             },
             "Google Books": {
                 "welcome": "/gbooks",
+                "books": "/gbooks/books/{nome-ricerca}",
+                "book": "/gbooks/books/{nome-ricerca}/:bID",
+                "free e-books": "/gbooks/books/{nome-ricerca}/free-ebook",
+                "paid e-books": "/gbooks/books/{nome-ricerca}/paid-ebook",
+                "all e-books": "/gbooks/books/{nome-ricerca}/ebook",
             }
         }
     })

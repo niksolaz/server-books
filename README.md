@@ -35,3 +35,8 @@ yarn dev
 ## Google Books:
 - Go to https://developers.google.com/books/docs/overview and get API_key
 - Endpoint `welcome`: `/gbooks`
+- Endpoint `books`: `/gbooks/books/{name-of-research}`
+- Endpoint `book`: `/gbooks/books/{name-of-research}/{bID}`
+- Endpoint `free e-books`: `/gbooks/books/{name-of-research}/free-ebook`
+- Endpoint `paid e-books`: `/gbooks/books/{name-of-research}/paid-ebook`
+- Endpoint `all e-books`: `/gbooks/books/{name-of-research}/ebook`
